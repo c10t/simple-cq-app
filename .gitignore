@@ -1,0 +1,4 @@
+# for backend (Django)
+__pycache__/
+
+db.sqlite3
