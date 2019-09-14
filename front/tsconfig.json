@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "esModuleInterop": true,
+    "jsx": "react",
+    "strict": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
