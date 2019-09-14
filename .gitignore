@@ -1,4 +1,7 @@
-# for backend (Django)
+# Django
 __pycache__/
 
 db.sqlite3
+
+# Project
+data
