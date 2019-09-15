@@ -1,25 +1,7 @@
 import React from 'react'
-import brace from 'brace'
-import AceEditor from 'react-ace'
 
-import 'brace/mode/sql'
-import 'brace/theme/github'
+import PageTemplate from './components/PageTemplate'
 
-const Editor: React.FC = () => {
-  const [code, setCode] = React.useState('')
-  const handleChange = (value: string, event?: any) => {
-    console.log('new value...', value)
-    console.log('event:', event)
-    setCode(value)
-  }
-  return (
-    <AceEditor
-      mode="sql"
-      theme="github"
-      value={code}
-      onChange={handleChange}
-    />
-  )
-}
+const App: React.FC = () => <PageTemplate />
 
-export default Editor
+export default App

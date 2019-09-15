@@ -10,6 +10,8 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@material-ui/core": "^4.4.2",
+    "@material-ui/icons": "^4.4.1",
     "alasql": "^0.4.11",
     "react": "^16.9.0",
     "react-ace": "^7.0.4",
