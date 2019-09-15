@@ -1,9 +1,23 @@
 const path = require('path')
-const rules = [{
-  test: /\.tsx?/,
-  exclude: /node_modules/,
-  loader: 'babel-loader'
-}]
+const rules = [
+  {
+    test: /\.tsx?/,
+    exclude: /node_modules/,
+    loader: 'babel-loader'
+  },
+  {
+    test: /\.css?/,
+    use: [
+      'style-loader',
+      {
+        loader: 'css-loader',
+        options: {
+          url: false
+        }
+      }
+    ]
+  }
+]
 
 module.exports = {
   target: 'web',
